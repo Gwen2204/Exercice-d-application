@@ -1,0 +1,81 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+#logo1{
+    margin:10px;
+    width:300px;
+}
+
+#flexhead{
+    display:flex;
+    flex-wrap:wrap;}
+
+#title{
+    margin-top:35px;
+    font-style: normal;
+    line-height: 1.2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+#DIVlogo{width:50%}
+
+a{
+    color: white;
+
+}
+
+#leflex1{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#DIVaside1{
+    width:20%;
+
+}
+
+#aside1{
+    background-color: grey;
+    height:100%;
+}
+
+#DIVsection1{
+    width:80%;
+
+}
+
+.nav1{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    
+}
+
+li,h1,h2,p{margin:10px}
+
+#DIVaside1{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #DIVaside1{display:none}
+    #DIVsection1{width:100%}
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    #title{display:none}
+    .nav1{justify-content: center;}
+    
+
+    
+}
