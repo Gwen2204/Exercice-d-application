@@ -1,7 +1,20 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2,th,.onglet{
+    font-size: 16px;
+}
+
+a,p,li,h3{
+    font-size: 14px;
 }
 
 #logo1 {
@@ -72,6 +85,7 @@ h1,
 h2,
 p {
     margin: 20px
+    
 }
 
 #DIVaside1 {
@@ -86,6 +100,7 @@ p {
 
     #DIVsection1 {
         width: 100%
+
     }
 
     #title {
@@ -99,11 +114,24 @@ p {
         flex-direction:column;
     }
 
-    li{margin: 3px;}
+    li{
+        margin: 3px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+    
+    h2,th,.onglet{
+        font-size: 14px;
+    }
+    
+    a,p,li,h3{
+        font-size: 12px;
+    }
         
 }
-
-
+tbody
 table,
 td,
 tr {
@@ -112,8 +140,10 @@ tr {
     border-collapse: collapse;
 }
 
-#marge {
-    margin: 20px;
+#marge,legend, input, select, textarea, label {
+    margin: 5px;
+    margin-left: 10px;
+    
 
 }
 

@@ -27,9 +27,9 @@
 
         <nav>
             <ul type="disc" class="nav1">
-                <li><a href="index.html" title="Accueil">Accueil</a></li>
-                <li><a href="tableau.html" title="Tableau">Tableau</a></li>
-                <li><a href="contact.html" title="Contact">Contact</a></li>
+                <li><a class="onglet" href="index.html" title="Accueil">Accueil</a></li>
+                <li><a class="onglet" href="tableau.html" title="Tableau">Tableau</a></li>
+                <li><a class="onglet" href="contact.html" title="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -59,7 +59,7 @@
                                 id="prénom">
                             <br>
                             <br>
-                            Sexe*: <input type="radio"> Féminin <input type="radio"> Masculin
+                            <label for="sexe">Sexe*: </label><input type="radio"> Féminin <input type="radio"> Masculin
                             <br>
                             <br>
                             <label for="date">Date de naissance*: </label> <input type="date" name="ddn" id="date">
@@ -90,8 +90,8 @@
                                 <option value="Autres">Autres</option>
                             </select>
                             <br>
-                            <br>Votre question*:<textarea name="Votre question" id="Votre question" cols="80"
-                                rows="2"></textarea>
+                            <br><label for="question">Votre question*:</label><br><textarea name="Votre question"
+                                id="Votre question" cols="80" rows="2"></textarea>
                             <br>
                             <br>
                         </fieldset>
@@ -117,9 +117,9 @@
 
     <footer id="#">
         <ul type="disc" class="nav1">
-            <li><a href="Mention légales" title="Mention légales">Mention légales</a></li>
-            <li><a href="Horaires" title="Horaires">Horaires</a></li>
-            <li><a href="Plan du site" title="Plan du site">Plan du site</a></li>
+            <li><a class="onglet" href="Mention légales" title="Mention légales">Mention légales</a></li>
+            <li><a class="onglet" href="Horaires" title="Horaires">Horaires</a></li>
+            <li><a class="onglet" href="Plan du site" title="Plan du site">Plan du site</a></li>
         </ul>
     </footer>
 </body>
