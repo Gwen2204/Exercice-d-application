@@ -17,17 +17,17 @@ a,p,li,h3{
     font-size: 14px;
 }
 
-#logo1 {
+#logo1-index,#logo1-contact,#logo1-tableau {
     margin: 10px;
     width: 300px;
 }
 
-#flexhead {
+#flexhead-index,#flexhead-tableau,#flexhead-contact {
     display: flex;
     flex-wrap: wrap;
 }
 
-#title {
+#title-index,#title-tableau,#title-contact {
     margin-top: 35px;
     font-style: normal;
     line-height: 1.2;
@@ -40,7 +40,7 @@ a,p,li,h3{
 }
 
 
-#DIVlogo {
+#DIVlogo-index,#DIVlogo-tableau,#DIVlogo-contact {
     width: 50%
 }
 
@@ -49,22 +49,23 @@ a {
 
 }
 
-#leflex1 {
+#leflex-index,#leflex-tableau,#leflex-contact {
     display: flex;
     flex-wrap: wrap;
 }
 
-#DIVaside1 {
+#DIVaside-index,#DIVaside-tableau,#DIVaside-contact {
     width: 20%;
+    margin-bottom: 45px;
 
 }
 
-#aside1 {
+#aside-index,#aside-tableau,#aside-contact {
     background-color: rgba(128, 128, 128, 0.404);
     height: 100%;
 }
 
-#DIVsection1 {
+#DIVsection-index,#DIVsection-tableau,#DIVsection-contact {
     width: 80%;
     
 
@@ -88,22 +89,18 @@ p {
     
 }
 
-#DIVaside1 {
-    margin-bottom: 45px;
-}
-
 
 @media screen and (max-width: 768px) {
-    #DIVaside1 {
+    #DIVaside-index,#DIVaside-tableau,#DIVaside-contact {
         display: none
     }
 
-    #DIVsection1 {
+    #DIVsection-index,#DIVsection-tableau,#DIV-contact {
         width: 100%
 
     }
 
-    #title {
+    #title-index,#title-tableau,#title-contact {
         display: none
     }
 
