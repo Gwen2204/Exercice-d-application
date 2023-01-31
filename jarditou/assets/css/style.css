@@ -9,11 +9,11 @@ h1{
     font-size: 18px;
 }
 
-h2,th,.onglet{
+h2,th,.onglet,label{
     font-size: 16px;
 }
 
-a,p,li,h3{
+a,p,li,h3,span{
     font-size: 14px;
 }
 
@@ -89,6 +89,10 @@ p {
     
 }
 
+.cler{
+    color : red;
+    margin-left : 10px;
+}
 
 @media screen and (max-width: 768px) {
     #DIVaside-index,#DIVaside-tableau,#DIVaside-contact {
@@ -119,11 +123,11 @@ p {
         font-size: 16px;
     }
     
-    h2,th,.onglet{
+    h2,th,.onglet,label{
         font-size: 14px;
     }
     
-    a,p,li,h3{
+    a,p,li,h3,span{
         font-size: 12px;
     }
         
